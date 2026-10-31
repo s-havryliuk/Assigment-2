@@ -20,7 +20,7 @@ public class Assigment2Part1 extends TextProgram {
             println("There are two roots: " + x1 + " and " + x2);
         }
         if (d == 0) {
-            x1 = -b / 2 * a;
+            x1 = -b / (2 * a);
             println("There is one root: " + x1);
         }
         if (d < 0) {
